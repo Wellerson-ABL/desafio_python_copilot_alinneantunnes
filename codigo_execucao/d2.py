@@ -3,6 +3,8 @@
 ##Depois teremos que retornar a string repetida o número de vezes
 ##informado.
 
-string = input (m)
-numero = int(input("m"))
-print((string + ' ') * numero)
+texto = input("Digite Algo: ")
+vezes = int(input("Digite um número inteiro: "))
+
+print("O resultaod  é:")
+print((texto + ' ') * vezes )

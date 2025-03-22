@@ -3,8 +3,10 @@
 ##em uma única string?!
 
 
-info1 = input ("digite o primeiro valor")
-info2 = input ("digite o segundo valor") 
+print("Questinario Basico") 
+info1 = input ("Qual seu primeiro Nome?")
+info2 = input ("Qual sua idade?") 
+
 
 resultado = info1 + " " + info2
-print("O Resultado_Final é:", resultado)
+print("Olá:", resultado)
